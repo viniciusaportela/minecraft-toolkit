@@ -3,10 +3,6 @@
   "private": true,
   "repository": "justpilz/neutralinojs-react-ts-vite-template",
   "license": "MIT",
-  "author": {
-    "name": "JustPilz",
-    "url": "https://github.com/JustPilz"
-  },
   "scripts": {
     "dev": "neu run -- --window-enable-inspector",
     "build": "neu build"

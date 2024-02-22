@@ -1,5 +1,3 @@
-import './styles/index.css';
-
 import { app, events, init, window as neuWindow } from '@neutralinojs/lib';
 
 import { App } from './App';
@@ -41,7 +39,9 @@ init();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <main className="dark text-foreground bg-background">
+      <App />
+    </main>
   </React.StrictMode>
 );
 

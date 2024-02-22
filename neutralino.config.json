@@ -1,5 +1,5 @@
 {
-  "applicationId": "neutralinojs.react.ts.vite.template",
+  "applicationId": "net.viniciusaportela.modpackcreator",
   "version": "1.0.0",
   "defaultMode": "window",
   "documentRoot": "/react-src/build/",
@@ -7,27 +7,27 @@
   "enableServer": true,
   "enableNativeAPI": true,
   "tokenSecurity": "one-time",
-  "nativeAllowList": ["app.*", "computer.*", "window.*"],
+  "nativeAllowList": ["app.*", "computer.*", "window.*", "filesystem.*", "os.*"],
   "logging": {
     "enabled": true,
     "writeToLogFile": true
   },
   "modes": {
     "window": {
-      "title": "Neutralinojs + React + TS + Vite template",
+      "title": "Modpack Creator",
       "width": 800,
-      "height": 600,
+      "height": 500,
       "minWidth": 800,
-      "minHeight": 600,
+      "minHeight": 500,
       "fullScreen": false,
       "alwaysOnTop": false,
       "icon": "/react-src/public/assets/images/vite.png",
       "enableInspector": false,
-      "borderless": false,
+      "borderless": true,
       "maximize": false,
       "hidden": false,
-      "resizable": false,
-      "exitProcessOnClose": false,
+      "resizable": true,
+      "exitProcessOnClose": true,
       "useSavedState": false,
       "center": true
     }

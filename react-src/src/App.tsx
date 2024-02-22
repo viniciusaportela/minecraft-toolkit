@@ -1,26 +1,13 @@
-import * as S from './styled';
-
-import { useEffect, useState } from 'react';
-
-import { computer } from '@neutralinojs/lib';
+import {Projects} from "./pages/Projects/Projects.tsx";
+import {NextUIProvider} from "@nextui-org/react";
+import './styles/index.css';
+import {TitleBar} from "./components/TitleBar/TitleBar.tsx";
 
 export function App() {
-  const [osInfo, setOsInfo] = useState<computer.OSInfo>();
-
-  useEffect(() => {
-    async function getOSInfo() {
-      const data = await computer.getOSInfo();
-      setOsInfo(data);
-    }
-    getOSInfo();
-  }, []);
-
-  return (
-    <S.Wrapper>
-      <S.Paragraph>Neutralinojs + React + TS + Vite template</S.Paragraph>
-      <S.Paragraph>
-        {osInfo?.name} {osInfo?.version}
-      </S.Paragraph>
-    </S.Wrapper>
-  );
+  return <NextUIProvider>
+    <div className="w-[100vw] h-[100vh] flex flex-col border-[0.5px] border-solid border-zinc-700 bg-zinc-900">
+      <TitleBar />
+      <Projects />
+    </div>
+  </NextUIProvider>
 }
