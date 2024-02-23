@@ -1,5 +1,5 @@
 import {useEffect} from "react";
-import { window as neuWindow } from '@neutralinojs/lib';
+import {app, window as neuWindow} from '@neutralinojs/lib';
 import {Button} from "@nextui-org/react";
 import {CornersOut, Minus, X} from "@phosphor-icons/react";
 
@@ -9,15 +9,15 @@ export const TitleBar = () => {
   }, []);
 
   const close = () => {
-    // app.exit();
+    app.exit();
   }
 
   const maximize = () => {
-    // neuWindow.isMaximized().then((isMaximized) => isMaximized ? neuWindow.unmaximize() : neuWindow.maximize());
+    neuWindow.isMaximized().then((isMaximized) => isMaximized ? neuWindow.unmaximize() : neuWindow.maximize());
   }
 
   const minimize = () => {
-    // neuWindow.minimize();
+    neuWindow.minimize();
   }
 
   return <div className="w-full h-unit-10 select-none flex items-center px-2 py-0 bg-zinc-900 border-solid border-b-[0.5px] border-b-zinc-800">

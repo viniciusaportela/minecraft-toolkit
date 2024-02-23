@@ -40,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.scratch_4.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -63,6 +64,9 @@
       "directory",
       "module",
       "repository"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript"
     ]
   }
 }]]></component>
@@ -75,7 +79,10 @@
       <recent name="$PROJECT_DIR$/react-src/src/pages/Projects" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="scratch_4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,6 +96,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.scratch_4.js" />
       </list>
     </recent_temporary>
   </component>
@@ -104,6 +112,9 @@
       <workItem from="1708555511657" duration="5908000" />
       <workItem from="1708566966312" duration="2517000" />
       <workItem from="1708569488507" duration="7748000" />
+      <workItem from="1708613527680" duration="11000" />
+      <workItem from="1708634243871" duration="3000" />
+      <workItem from="1708650499314" duration="5849000" />
     </task>
     <servers />
   </component>
